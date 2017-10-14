@@ -1,0 +1,59 @@
+
+<!-- -----------------------------
+第十五课，Lesson 15, pop up,　弹出图片
+-->
+<head>
+<style>
+.box {
+    width: 70%;
+	height:250px;
+    position: relative;
+	padding:auto;
+	margin:auto;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: 1s ease;
+	padding:auto;
+	margin:auto;
+}
+
+.pop {
+  position: absolute;
+  border: 10px solid black;
+  transition: 1s ease-in;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.box:hover .pop {
+  opacity: 1;
+}
+
+.text {
+  background-color: Fuchsia;
+  color: yellow;
+  text-align:center;
+  font-size: 28px;
+}
+
+</style>
+</head>
+
+<body>
+<h1 style="text-align:center; 
+font-size:30px;">Mr. Ken's Shirts</h1>
+
+<div class="box">
+<img src="images\tsr.png" class="image" style="width:100%;">
+
+<div class="pop">
+<img src="images\ts1.png" class="image" style="width:100%;">
+
+<div class="text">Pizza Man!!!</div>
+</body>

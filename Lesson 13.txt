@@ -1,0 +1,24 @@
+<!-- -----------------------------
+第十三课，Lesson 13, 不做 HTML 处理，进到　ＣＳＳ， Do in CSS, not HTML In-Line Process
+-->
+
+<html>
+<head>
+<style> 
+	.image {width: 60%;} 
+</style>
+</haed>
+
+<body>
+<div class="box">
+
+<img class="image" src="images\s1.jpg">
+
+<div class="pop">
+
+	<div class="text">
+	    <br>Dream to Space!</div>
+</div>
+</div>
+</body>
+</html>
